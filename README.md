@@ -24,7 +24,8 @@ Ensure Python 3 is installed on your machine. You can download it directly from 
 1. Open **Command Prompt** or **PowerShell** as an Administrator.
 2. Run the following command:
 ```cmd
-   winget install --id=Gyan.FFmpeg -e
+   winget install --id=Gyan.FFmpeg -e```
+
 3. Restart command prompt
 
 For Windows (Manual Fallback Setup)
