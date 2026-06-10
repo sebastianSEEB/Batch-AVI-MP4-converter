@@ -23,8 +23,8 @@ Ensure Python 3 is installed on your machine. You can download it directly from 
 #### For Windows (Easiest via winget)
 1. Open **Command Prompt** or **PowerShell** as an Administrator.
 2. Run the following command:
-```cmd
-   winget install --id=Gyan.FFmpeg -e```
+
+   winget install --id=Gyan.FFmpeg -e
 
 3. Restart command prompt
 
@@ -42,3 +42,24 @@ Click Environment Variables, find the Path row under System variables, and hit E
 Click New and paste the direct path to your binary folder: C:\ffmpeg\bin (or your relevant version directory).
 
 Click OK on all windows and fully restart your application environment.
+
+
+**For Mac OS**
+Bash
+  brew install ffmpeg
+
+**Linux**
+Bash
+  sudo apt update && sudo apt install ffmpeg -y
+
+
+**How to run the code**
+1. Clone or download the repository
+2. Open a terminal inside the project
+3. Launch the script via python
+4.   python vidconv.py
+
+**How to use**
+1. Choose the directory where the converted videos should be saved after conversion is finished
+2. Select the AVI files you wish to convert
+3. After it's done, check your output folder (AVI files won't get deleted in the process)
